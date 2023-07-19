@@ -1,0 +1,11 @@
+.dark{
+    margin-left: 950px;
+}
+
+.display-flex-panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px !important;
+    margin: 0px !important;
+}
