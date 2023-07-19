@@ -2,6 +2,7 @@ import  express from 'express'
 import Data from './data/Data.js'
 import itemData from './data/itemData.js'
 import  dotenv from 'dotenv'
+import cors from 'cors'
 
 
 dotenv.config()
@@ -15,7 +16,7 @@ app.use(cors())
 
 
 app.get('/', (req,res) => {
-    res.send('API is running...')
+    res.send('API is running...!!')
 })
 
 app.get('/drive', (req,res) => {
