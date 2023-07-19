@@ -11,7 +11,7 @@ root.render(
   <BrowserRouter>
   <Auth0Provider
     domain="dev-ipwf8ypfebf6xn6t.us.auth0.com"
-    clientId="DQoUsjKS8o2txs4BnmvGuHruvu6NUhT1"
+    clientId="jXiGf13Ftk4EKdecuVhQtaO75aE4Dmes"
     authorizationParams={{
       redirect_uri: window.location.origin
     }}
@@ -20,8 +20,4 @@ root.render(
     </Auth0Provider>
     </BrowserRouter>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

@@ -57,11 +57,11 @@ const Content = () => {
 
   useEffect(() => {
     const fetchDrive = async () => {
-      const { data } = await axios.get("/drive");
+      const { data } = await axios.get("https://filterpixel.onrender.com/drive");
       setData(data);
     };
     const getfetchS3 = async () => {
-      const { data } = await axios.get("/s3");
+      const { data } = await axios.get("https://filterpixel.onrender.com/s3");
       setItemData(data);
     };
     fetchDrive();
